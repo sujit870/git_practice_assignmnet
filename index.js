@@ -15,10 +15,3 @@ function isPrime(number) {
     return true;
 }
 
-
-const numToCheck = 17;
-if (isPrime(numToCheck)) {
-    console.log(`${numToCheck} is a prime number.`);
-} else {
-    console.log(`${numToCheck} is not a prime number.`);
-}
